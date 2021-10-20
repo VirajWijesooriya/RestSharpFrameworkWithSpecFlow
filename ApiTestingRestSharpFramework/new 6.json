@@ -1,0 +1,158 @@
+{
+    "LoanDetails": {
+        "FirstName": "Gold",
+        "LoanAmount": 40000.0,
+        "QuoteRefId": "9d0bd265-0658-423c-b930-5d4290458edb"
+    },
+    "Rates": {
+        "Three": 8.06,
+        "Five": 8.06,
+        "Seven": 8.56
+    },
+    "LoanLimits": {
+        "Three": 63000.0,
+        "Five": 63000.0,
+        "Seven": 63000.0
+    },
+    "ComparisonRates": {
+        "Three": 9.01,
+        "Five": 8.65,
+        "Seven": 9.0
+    },
+    "MonthlyRepaymentAmount": {
+        "Three": 1272.13,
+        "Five": 823.58,
+        "Seven": 643.55
+    },
+    "EstablishmentFeesForLoanLimits": [{
+            "maximumLoanAmount": 19999.0,
+            "establishmentFee": 300.0
+        }, {
+            "maximumLoanAmount": 34999.0,
+            "establishmentFee": 400.0
+        }, {
+            "maximumLoanAmount": 60000.0,
+            "establishmentFee": 500.0
+        }
+    ],
+    "LoanId": 1057844,
+    "LoginToken": "bdeda0e2a82c4362853dec117bfba8eb",
+    "ScoreBand": [{
+            "From": 400,
+            "To": 499,
+            "ScorePercentage": -0.97,
+            "Title": "Poor",
+            "SubTitle": "400-499"
+        }, {
+            "From": 500,
+            "To": 539,
+            "ScorePercentage": -0.85,
+            "Title": "Very Low",
+            "SubTitle": "500-539"
+        }, {
+            "From": 540,
+            "To": 590,
+            "ScorePercentage": -0.55,
+            "Title": "Low",
+            "SubTitle": "540-590"
+        }, {
+            "From": 591,
+            "To": 639,
+            "ScorePercentage": -0.25,
+            "Title": "Below average",
+            "SubTitle": "591-639"
+        }, {
+            "From": 640,
+            "To": 685,
+            "ScorePercentage": 0.0,
+            "Title": "Average",
+            "SubTitle": "640-685"
+        }, {
+            "From": 686,
+            "To": 729,
+            "ScorePercentage": 0.25,
+            "Title": "Above average",
+            "SubTitle": "686-729"
+        }, {
+            "From": 730,
+            "To": 781,
+            "ScorePercentage": 0.35,
+            "Title": "Decent",
+            "SubTitle": "730-781"
+        }, {
+            "From": 782,
+            "To": 834,
+            "ScorePercentage": 0.55,
+            "Title": "Respectable",
+            "SubTitle": "782-834"
+        }, {
+            "From": 835,
+            "To": 899,
+            "ScorePercentage": 0.75,
+            "Title": "Good",
+            "SubTitle": "835-899"
+        }, {
+            "From": 900,
+            "To": 99999,
+            "ScorePercentage": 0.9,
+            "Title": "Very good",
+            "SubTitle": "900+"
+        }
+    ],
+    "IsSecuredLoan": true,
+    "TotalEstablishFee": 560.0,
+    "IsServiceUnavailable": true,
+    "WisrCustomerId": "fe3de71f-ec86-42d3-9622-b5c533e1df2d",
+    "CreditScores": [{
+            "IsServiceUnavailable": true,
+            "ErrorList": [],
+            "CreditScore": 640,
+            "CreditScoreComprehensive": 640,
+            "AgeOfFileMonths": 60,
+            "Enquiries": 0,
+            "Defaults": 0,
+            "UnpaidDefaults": 0,
+            "FinancialDefaultsLast36Months": 0,
+            "TelcoDefaultsLast36MonthsGreaterThan1000": 0,
+            "SumUnpaidDefaults": 0.0,
+            "SumPaidDefaultsLast36Months": 0.0,
+            "Accounts": 0,
+            "IsBadRHI": false,
+            "Bankruptcies": 0,
+            "CourtActions": 0,
+            "CourtJudgements": 0,
+            "IsInvalid": false,
+            "Source": "Veda",
+            "MatchType": "Primary",
+            "ParentAggregateId": "9d0bd265-0658-423c-b930-5d4290458edb"
+        }, {
+            "IsServiceUnavailable": true,
+            "ErrorList": [],
+            "CreditScore": -1,
+            "CreditScoreComprehensive": -1,
+            "AgeOfFileMonths": 0,
+            "Enquiries": 0,
+            "Defaults": 0,
+            "UnpaidDefaults": 0,
+            "FinancialDefaultsLast36Months": 0,
+            "TelcoDefaultsLast36MonthsGreaterThan1000": 0,
+            "SumUnpaidDefaults": 0.0,
+            "SumPaidDefaultsLast36Months": 0.0,
+            "Accounts": 0,
+            "IsBadRHI": false,
+            "Bankruptcies": 0,
+            "CourtActions": 0,
+            "CourtJudgements": 0,
+            "IsInvalid": false,
+            "Source": "DnB",
+            "MatchType": "Primary",
+            "ParentAggregateId": "9d0bd265-0658-423c-b930-5d4290458edb"
+        }
+    ],
+    "QuoteStatus": 2,
+    "IsSevenYearAllowed": true,
+    "PPSRFee": 10.0,
+    "PrivateSaleFee": 50.0,
+    "IsPrivateSale": true,
+    "LoanStatus": "Incomplete"
+}
